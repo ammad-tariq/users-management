@@ -1,0 +1,5 @@
+- data.each do |result|
+  tr
+    td = result[:row]
+    td = result[:result]&.html_safe
+    td = result[:errors]&.html_safe
